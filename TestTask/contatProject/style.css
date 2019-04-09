@@ -94,8 +94,9 @@ button{
   letter-spacing: 1.2px;
 
 }
-.cart{
-  width: 100%;
+.content, .cart{
+  width: 1100px;
+  margin: 0 auto;
 }
 .content{
   display: flex;
@@ -131,7 +132,6 @@ textarea{
 
 .cart{
   display: flex;
-  width: 100%;
   padding: 40px;
   box-sizing: border-box;
   font-size: 15px;
