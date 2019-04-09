@@ -1,0 +1,170 @@
+main, .head, .footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.head{
+  display: flex;
+  display: -webkit-flex;
+  background-color: #fff;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 0.5px solid #b3b3b3;
+}
+.logo{
+  padding: 10px 40px;
+  width: 20%;
+}
+.logo img{
+  width: 31px;
+  height: 25px;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  padding: 10px;
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  color: #191919;
+  margin-right: 10px;
+}
+nav a.active{
+  color: #10c9c3;
+}
+
+main{
+    background-color: #f5f5f5;
+}
+article{
+  flex: 5;
+  padding: 40px;
+}
+.form{
+  flex: 6;
+  padding: 40px;
+}
+
+article p{
+  font-size: 15px;
+  line-height: 24px;
+  color: #787878;
+  font-size: 16px;
+  letter-spacing: 0.08px;
+}
+article h2{
+  letter-spacing: 0.3px;
+  font-size: 30px;
+}
+article span{
+  font-weight: bold;
+  color: #000;
+  margin-right: 10PX;
+}
+
+form input, textarea{
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  resize: none;
+  width: 100%;
+  margin: 10px 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+button{
+  background-color: #10c9c3;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+
+}
+.cart{
+  width: 100%;
+}
+.content{
+  display: flex;
+}
+form{
+  width: 100%;
+}
+
+form div {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0.83em;
+}
+form div input{
+  flex: 1;
+}
+form div input:first-child{
+  margin-right: 5%;
+}
+footer{
+  width: 100%;
+  background-color: #000;
+}
+.footer{
+  display: flex;
+  color: #bcbcbc;
+  padding: 40px 0;
+}
+textarea{
+  height: 170px;
+}
+
+.cart{
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.information h3{
+  color: #fff;
+  font-size: 18px;
+}
+.information{
+  flex: 5;
+}
+.contact-wrapper{
+  flex: 3;
+}
+.footer-nav1, .footer-nav3{
+  flex: 1;
+}
+.footer-nav2{
+  flex: 2;
+}
+ul{
+  list-style-type: none;
+}
+
+.contact {
+  padding:  1em;
+}
+.footer-nav3 ul{
+  padding: 0;
+}
+.footer p{
+  margin: 0;
+}
+.error{
+  background-color: rgba(245, 174, 174, 0.5);
+}
